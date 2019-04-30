@@ -1,0 +1,22 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>选择上传图片</title>
+</head>
+<body> 
+    <div>
+        <form action="/Zxing/SaveAS" method="post" enctype="multipart/form-data">
+            <div>
+                <input type="file" id="MyFile" name="MyFile" />
+                <input type="submit" value="上传" />
+            </div>
+        </form>
+     </div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>查看图片</title>
+</head>
+<body>
+    <div>
+        @foreach (var item in ViewBag.List)
+        {
+            <br />
+            <a href="~/ServerFile/@ViewBag.StrFileName">@item</a>
+        }
+    </div>
+</body>
+</html>
